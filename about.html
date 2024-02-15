@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About -TDP </title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon-m.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- for news section style starat  -->
+  <style>
+    .news-article {
+      background-color: #fff;
+      padding: 20px;
+      margin: 5%;
+      box-shadow: 5px 16px 25px rgba(0, 0, 0, 0.9);
+    }
+
+    .article-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .article-date {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 20px;
+    }
+
+    .article-photos {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .article-photos img {
+      max-width: 30%;
+      /* Adjust the width of the photos as needed */
+      height: auto;
+    }
+
+    .article-content {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    /* Responsive CSS for News Article */
+    @media (max-width: 768px) {
+      .article-photos {
+        flex-wrap: wrap;
+        /* Stack photos on small screens */
+        justify-content: flex-start;
+      }
+
+      .article-photos img {
+        max-width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+  <!-- for news section style end  -->
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="tel:+91 8094518231" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">+91 8094518231</p>
+          </div>
+
+        </a>
+
+        <a href="./index.html" class="logo">
+          <img src="./assets/images/logo-m-RS.png" alt=" logo">
+        </a>
+
+
+        <div class="header-btn-group">
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="./index.html#home" class="logo">
+              <img src="./assets/images/logo-m-rs_black.png" alt="Radhe shyam logo menu ">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="./index.html#home" class="navbar-link" data-nav-link>home</a>
+            </li>
+
+            <li>
+              <a href="./about.html" class="navbar-link" data-nav-link>about me</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="navbar-link" data-nav-link>destination</a>
+              <ul class="dropdown-menu">
+                <li><a href="./DNP.html"> <b>Desert National Park</b></a></li>
+                <hr>
+                <li><a href="./Destination.html"> <b>Other destination</b></a></li>
+              </ul>
+
+            <li>
+            <li class="dropdown">
+              <a href="#" class="navbar-link" data-nav-link>Animals</a>
+              <ul class="dropdown-menu">
+                <li><a href="./Mamels.html"><b>Mammals</b></a></li>
+                <hr>
+                <li><a href="./Reptiles.html"><b>Reptiles</b></a></li>
+                <hr>
+                <li><a href="./Birds.html"><b>Birds</b></a></li>
+              </ul>
+
+            <li>
+              <a href="./gallery.html" class="navbar-link" data-nav-link>gallery</a>
+            </li>
+            <li>
+              <a href="./GIB.html" class="navbar-link" data-nav-link>GIB</a>
+            </li>
+            <li>
+              <a href="./Contact.html" class="navbar-link" data-nav-link>contact me</a>
+            </li>
+
+          </ul>
+
+        </nav>
+        <a href="https://forms.gle/sBWPWkdsfHUVrkqD9" target="_blank">
+          <button class="btn btn-primary">Book Now</button>
+        </a>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- for whatsapp flot icon start  -->
+
+      <a class="whapp animated pulse"
+        href="https://wa.me/918094518231?text=hello%20radheshyam%20I%27m%20interested%20to%20visit%20desert%20national%20park%20"
+        target="_blank">
+        <div class="whapp-btn">
+          <img
+            src="https://uploads-ssl.webflow.com/62b5ca109278e030a060e942/62bf28776d90ec6fa2bec0f4_iconmonstr-whatsapp-1-240.png">
+        </div>
+      </a>
+      <!-- for whatsapp flot icon end   -->
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url(./assets/images/about-home.jpg);">
+        <div class="container">
+
+          <h2 class="h1 hero-title">About</h2>
+
+          <p class="hero-text">
+            "Unveiling the Lens: Sharvan Patel's Photographic Odyssey through Nature, Culture, and Conservation"
+          </p>
+
+          <div class="btn-group">
+            <a href="./about.html" target="_blank">
+
+              <button class="btn btn-primary">About me</button>
+            </a>
+            <a href="https://forms.gle/sBWPWkdsfHUVrkqD9" target="_blank">
+              <button class="btn btn-secondary">Book now</button>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #About
+      -->
+
+      <section class="about" id="about">
+        <div class="container">
+
+          <p class="section-subtitle">About Me</p>
+
+          <h2 class="h2 section-title">A Story of Passion and Preservation</h2>
+
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque
+            laudantium.Sit ornare mollitia tenetur, aptent.
+          </p>
+          <p class="para" ><b>Introduction:</b><br>Embark on a visual journey through the life and lens of Sharvan Patel, a visionary
+            photographer hailing from the serene village of Doli, adjacent to the enchanting Dhawa Doli Wildlife
+            Sanctuary in the Jodhpur district of Rajasthan.</p>
+
+          <p class="para" ><b>Early Life and Roots:</b><br>Born and raised in the picturesque village of Doli, Sharvan Patel's journey
+            began amidst the vibrant landscapes of rural Rajasthan. His formative years in the lap of nature instilled a
+            profound connection with the environment and a deep appreciation for the cultural tapestry woven into the
+            region.</p>
+
+          <p class="para" ><b>Educational Pursuits:</b><br>Sharvan's educational journey led him to Jodhpur, where he completed his
+            B.Sc and B.Ed. These academic pursuits laid the foundation for a holistic approach to photography, merging
+            his love for nature and culture with a commitment to agricultural projects.</p>
+
+          <p class="para" ><b>Conservation Initiatives in Dhawa Doli Wildlife Sanctuary:</b><br>A trailblazer in conservation, Sharvan
+            Patel has spearheaded transformative initiatives within the Dhawa Doli Wildlife Sanctuary. His commitment to
+            preserving the sanctuary's biodiversity showcases a photographer's lens coupled with a dedicated advocate
+            for Rajasthan's natural landscapes.</p>
+
+          <p class="para" ><b>Evolution of Photography:</b><br>From capturing local moments to evolving a distinctive style, Sharvan's
+            photography journey mirrors his personal and professional growth. His lens captures not just scenes but
+            stories, showcasing the essence of Rajasthan with authenticity and passion.</p>
+
+          <p class="para" ><b>Recognition and Achievements:</b><br>Sharvan Patel's work has garnered recognition, awards, and
+            accolades. His photographs have been featured in exhibitions, publications, and collaborative projects,
+            adding to the rich tapestry of his photographic accomplishments.</p>
+
+          <p class="para" ><b>Future Endeavors:</b><br>Looking ahead, Sharvan Patel envisions expanding his contributions to the
+            conservation of Rajasthan's wildlife and cultural heritage. His commitment to photography as a tool for
+            advocacy remains unwavering, with plans to further collaborate on projects that promote environmental
+            awareness and cultural preservation.</p>
+
+          <p class="para" ><b>Join the Journey:</b><br>Explore the multifaceted narrative of Sharvan Patel's life and work. Each
+            photograph narrates a story, and together, they unveil the beauty, authenticity, and conservation spirit
+            that define Sharvan Patel's remarkable photographic odyssey.</p>
+
+          <p class="para">
+
+          </p>
+          <br><br><br>
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/self-1.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/self-2.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/self-3.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/self-4.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/self-5.jpg" alt="Gallery image">
+              </figure>
+            </li>
+          </ul>
+          <br>
+
+          <h1>Radheshyam: Your Expert Birding Guide in Desert National Park</h1>
+          <p>When you set out on a birdwatching expedition in Desert National Park, there's one name that stands out
+            among the desert's dunes and avian wonders - Radheshyam. Radheshyam isn't just a guide; he's the embodiment
+            of expertise, passion, and conservation in the realm of birding. With an unrivaled knowledge of the park's
+            birdlife and a deep commitment to preserving these delicate ecosystems, Radheshyam elevates every
+            birdwatching adventure into an educational and immersive experience. Whether you're a beginner or a seasoned
+            birder, Radheshyam's guidance is your key to unlocking the hidden treasures of Desert National Park's avian
+            world.</p>
+
+          <br>
+
+
+
+          <!-- <button class="btn btn-morePhoto" >View All Photos</button> - -->
+        </div>
+        <br><br><br>
+        <!--  -->
+        <!-- for news start -->
+        <!--  -->
+        <div class="news-article">
+          <h2 class="article-title">Breaking News: Radhe Shyam's Conservation 
+             Efforts</h2>
+
+          <p class="article-date">Published in various News Paper</p>
+
+          <div class="article-photos">
+            <img src="./assets/images/news/news-9.jpg" alt="Photo 1">
+            <img src="./assets/images/news/news-17.jpg" alt="Photo 2">
+            <img src="./assets/images/news/news-5.jpg" alt="Photo 3">
+
+          </div>
+          <br>
+          <div class="article-photos">
+            <img src="./assets/images/news/news-18.jpg" alt="Photo 3">
+            <img src="./assets/images/news/news-12.jpg" alt="Photo 3">
+            <img src="./assets/images/news/news-11.jpg" alt="Photo 3">
+
+          </div>
+          <br>
+          <p class="article-content">
+            Radhe Shyam's popularity as a conservationist has reached remarkable heights, resonating not only with avid
+            wildlife enthusiasts but also instilling a sense of fear among those who dare to harm the fragile ecosystems
+            and the iconic Great Indian Bustard. His unwavering dedication to preserving India's diverse wildlife has
+            earned him recognition in national and international newspapers. Radhe Shyam's influential voice echoes
+            through his tireless efforts to motivate people to conserve nature, emphasizing the urgent need to protect
+            our planet's precious biodiversity. His work serves as a powerful reminder that the responsibility of
+            safeguarding our natural heritage lies with each one of us, and his passion continues to inspire a global
+            movement toward a sustainable and harmonious coexistence with the natural world.
+          </p>
+          <br><br>
+
+          <div class="article-photos">
+            <img src="./assets/images/news/news-3.jpg" alt="Photo 3">
+            <img src="./assets/images/news/news-7.jpg" alt="Photo 3">
+            <img src="./assets/images/news/news-15.jpg" alt="Photo 3">
+          </div>
+          <br>
+          <div class="article-photos">
+            <img src="./assets/images/news/news-14.jpg" alt="Photo 3">
+            <img src="./assets/images/news/news-16.jpg" alt="Photo 3">
+            <img src="./assets/images/news/news-8.jpg" alt="Photo 3">
+          </div>
+          <br>
+          <div class="article-photos">
+            <img src="./assets/images/news/news-1.jpg" alt="Photo 3">
+            <img src="./assets/images/news/news-7.jpg" alt="Photo 3">
+            <img src="./assets/images/news/news-3.jpg" alt="Photo 3">
+          </div>
+          <br><br>
+          <p class="article-content">
+            In conclusion, Radhe Shyam's journey from a passionate birdwatcher to a celebrated conservationist is a
+            testament to the transformative power of dedication and love for the natural world. His tireless efforts in
+            Desert National Park have not only revitalized the population of the endangered Great Indian Bustard but
+            have also sparked a renewed interest in wildlife conservation among local communities and global audiences
+            alike. Radhe Shyam's story serves as an inspiration, reminding us that ordinary individuals can make an
+            extraordinary impact when driven by a profound sense of responsibility towards our planet. As we reflect on
+            his achievements, we are encouraged to take small steps in our own lives to protect and cherish the diverse
+            ecosystems that sustain life on Earth. Radhe Shyam's legacy is a beacon of hope, illuminating the path
+            towards a sustainable and harmonious coexistence between humanity and the natural world
+          </p>
+        </div>
+        <br><br>
+
+         
+        <div class="container">
+          <ul class="gallery-list">
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/self-6.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/self-7.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/self-8.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/self-9.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/self-10-.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/self-11.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/self-12.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/self-13.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+
+          </ul>
+        </div>
+      </section>
+
+      <!--  -->
+      <!-- for news end -->
+      <!--  -->
+
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Call To Action</p>
+
+            <h2 class="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
+
+            <p class="section-text">
+              "Prepared to Immerse in Unforgettable Thar Desert Exploration ? <br> Let Your Journey Echo Our Warmth
+              and
+              Expertise Forever."
+            </p>
+          </div>
+
+          <a href="tel:+91 8094518231">
+            <button class="btn btn-secondary">Call Me !</button>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#home" class="logo">
+            <img src="./assets/images/m-logo.png" alt="RadheShyam logo">
+          </a>
+
+          <p class="footer-text">
+            Radhe's dedication as Great Indian Bustard conservator in the Thar Desert is truly remarkable
+          </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Contact Us</h4>
+
+          <p class="contact-text">
+            Feel free to contact and reach us !!
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="tel:+918094518231" class="social-link">
+                <ion-icon name="call-outline"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/918094518231?text=hello%20radheshyam%20I%27m%20interested%20to%20visit%20national%20desert%20park%20and%20many%20more%20other%20tourist%20places%20"
+                class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/radheshyam_bishnoi_/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/radheshyam.pemani" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/RadheBishnoi__" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+          <br>
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+918094518231" class="contact-link">+91 8094518231</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:radhepemani@gmail.com" class="contact-link">radhepemani@gmail.com</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>Desert National Park Jaislmear, Rajasthan (India)</address>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+ 
+        <p class="copyright">
+          &copy; 2023 <a href="">MAHENDRA SINGH POONIYA </a>. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- other done by mahi  -->
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+</body>
+
+</html>

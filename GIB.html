@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GIB , Radhe - travel guide </title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon-m.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- for table css  -->
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #dddddd;
+    }
+  </style>
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="tel:+91 8094518231" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">+91 8094518231</p>
+          </div>
+
+        </a>
+
+        <a href="./index.html" class="logo">
+          <img src="./assets/images/logo-m-RS.png" alt=" logo">
+        </a>
+
+
+        <div class="header-btn-group">
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="./index.html#home" class="logo">
+              <img src="./assets/images/logo-m-rs_black.png" alt="Radhe shyam logo menu ">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="./index.html#home" class="navbar-link" data-nav-link>home</a>
+            </li>
+
+            <li>
+              <a href="./about.html" class="navbar-link" data-nav-link>about me</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="navbar-link" data-nav-link>destination</a>
+              <ul class="dropdown-menu">
+                <li><a href="./DNP.html"> <b>Desert National Park</b></a></li>      <hr>
+                <li><a href="./Destination.html"> <b>Other destination</b></a></li>
+              </ul>
+
+            <li>
+            <li class="dropdown">
+              <a href="#" class="navbar-link" data-nav-link>Animals</a>
+              <ul class="dropdown-menu">
+                <li><a href="./Mamels.html"><b>Mammals</b></a></li>  <hr>
+                <li><a href="./Reptiles.html"><b>Reptiles</b></a></li> <hr>
+                <li><a href="./Birds.html"><b>Birds</b></a></li>
+              </ul>
+
+            <li>
+              <a href="./gallery.html" class="navbar-link" data-nav-link>gallery</a>
+            </li>
+            <li>
+              <a href="./GIB.html" class="navbar-link" data-nav-link>GIB</a>
+            </li>
+            <li>
+              <a href="./Contact.html" class="navbar-link" data-nav-link>contact me</a>
+            </li>
+
+          </ul>
+
+        </nav>
+        <a href="https://forms.gle/sBWPWkdsfHUVrkqD9" target="_blank">
+          <button class="btn btn-primary">Book Now</button>
+        </a>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- for whatsapp flot icon start  -->
+
+      <a class="whapp animated pulse"
+        href="https://wa.me/918094518231?text=hello%20radheshyam%20I%27m%20interested%20to%20visit%20desert%20national%20park%20"
+        target="_blank">
+        <div class="whapp-btn">
+          <img
+            src="https://uploads-ssl.webflow.com/62b5ca109278e030a060e942/62bf28776d90ec6fa2bec0f4_iconmonstr-whatsapp-1-240.png">
+        </div>
+      </a>
+      <!-- for whatsapp flot icon end   -->
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url(./assets/images/GIB/GIB-home.jpeg);">
+        <div class="container">
+
+          <h2 class="h1 hero-title">great indian bustered</h2>
+
+          <p class="hero-text">
+            The Godawan is a symbol of India's rich biodiversity and a flagship species for conservation.
+          </p>
+
+          <div class="btn-group">
+            <a href="./about.html" target="_blank">
+
+              <button class="btn btn-primary">About me</button>
+            </a>
+            <a href="https://forms.gle/sBWPWkdsfHUVrkqD9" target="_blank">
+              <button class="btn btn-secondary">Book now</button>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+
+          <!-- <p class="section-subtitle">Photo Gallery</p>
+
+          <h2 class="h2 section-title">Great Indian Busterd</h2> -->
+
+          <!-- <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p> -->
+          <p>The <b>Great Indian Bustard (GIB) </b> , locally known as the <b>Godawan</b>, is a <b>large ground bird</b>
+            with a height of about <b>one metre </b>and magnificent and critically endangered bird species that once
+            gracefully roamed the vast landscapes of <b>India</b>. This majestic bird, possesses striking features, with
+            a brown and white plumage that seamlessly blends with its natural habitat, making it a true master of
+            camouflage.</p>
+
+          <br>
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/GIB/GIB-1.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/GIB/GIB-2.jpeg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/GIB/GIB-3.jpeg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/GIB/GIB-4.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/GIB/GIB-5.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+          </ul>
+          <br>
+
+
+          <br><br>
+
+          <ul>
+            <li><b>1. Critical Endangerment:</b>
+              The Great Indian Bustard (GIB) is critically endangered, with only a few hundred individuals remaining in
+              the wild. This alarming decline is mainly due to habitat loss, as the grasslands they rely on are
+              converted into agricultural lands and urban areas. Conservation efforts are crucial to prevent their
+              extinction.
+              <br>
+              Despite their majestic presence, GIBs have suffered dramatic population declines over the years. In the
+              1960s, there were over 1,500 individuals, but today, they teeter on the brink of extinction. The urgency
+              to save this species cannot be overstated.
+            </li>
+            <br><br>
+
+            <li><b>2. Habitat Loss:</b>
+              GIBs depend on expansive grasslands for their survival. However, extensive habitat loss has drastically
+              reduced their available range. Protecting and restoring their natural habitat is vital for their long-term
+              survival.
+              <br>
+              The conversion of grasslands into farmlands, infrastructure development, and urbanization has left GIBs
+              with limited areas to forage and breed. Conserving these grasslands is not only essential for the GIB but
+              also for numerous other species that depend on this unique ecosystem.
+            </li>
+            <br><br>
+
+            <li><b>3. Poaching and Predation:</b>
+              GIBs face threats from poaching for their feathers and body parts, as well as predation by feral dogs.
+              These factors contribute to their declining population and must be addressed through stringent
+              anti-poaching measures.
+              <br>
+              Poaching for their striking plumes, which are unfortunately sought after in the black market, remains a
+              significant threat. Additionally, the encroachment of feral dogs into their habitats poses a grave danger
+              to their nests and chicks.
+            </li>
+            <br><br>
+
+            <li><b>4. Collision with Power Lines:</b>
+              Collisions with high-tension power lines are a significant cause of GIB mortality. Efforts to mitigate
+              this threat include the installation of bird diverters and the undergrounding of power lines in critical
+              areas.
+              <br>
+              The GIB's flight patterns often lead them perilously close to these power lines, resulting in fatal
+              collisions. Conservationists and authorities are working together to make these landscapes safer for the
+              birds.
+            </li>
+            <br><br>
+
+            <li><b>5. Conservation Initiatives:</b>
+              Various governmental and non-governmental organizations, including Radheshyam Pemani Bishnoi, have
+              launched conservation initiatives aimed at protecting the GIB. These efforts involve habitat restoration,
+              community engagement, and raising awareness about the bird's plight.
+              <br>
+              Collaborative projects are underway to safeguard the GIB's future. These initiatives encompass not only
+              habitat preservation but also research, captive breeding programs, and community education to foster
+              coexistence.
+            </li>
+            <br><br>
+
+            <li><b>6. Importance as a Flagship Species:</b>
+              The GIB serves as a flagship species for conservation in India, drawing attention to the need for
+              preserving the unique biodiversity of the region. Its survival is indicative of the overall health of
+              grassland ecosystems.
+              <br>
+              Protecting the GIB goes beyond safeguarding a single species. It symbolizes our commitment to preserving
+              the entire ecosystem, including the countless other plants and animals that call these grasslands home.
+            </li>
+            <br><br>
+
+            <li><b>7. Role in Ecosystem:</b>
+              GIBs play a crucial role in maintaining the balance of grassland ecosystems. They help control insect
+              populations, disperse seeds, and contribute to the overall health of these habitats.
+              <br>
+              As omnivores, GIBs are key players in maintaining the delicate balance of their ecosystems. By controlling
+              insect populations and aiding in seed dispersal, they actively contribute to the vitality of these unique
+              habitats.
+            </li>
+            <br><br>
+
+            <li><b>8. Global Significance:</b>
+              The conservation of GIBs is not only important for India but also holds global significance. It reflects
+              our commitment to preserving endangered species and the ecosystems they inhabit.
+              <br>
+              The GIB's conservation resonates with the broader global effort to protect endangered species and conserve
+              threatened ecosystems. Their survival is a testament to our collective responsibility towards the planet's
+              biodiversity.
+            </li><br><br>
+
+            <li><b>9. Awards and Recognition:</b>
+              Radheshyam Pemani Bishnoi's dedication to GIB conservation has earned him recognition and awards from
+              prestigious organizations. His efforts inspire others to join the cause.
+              <br>
+              Radhe's tireless work and commitment to GIB conservation have not gone unnoticed. He has received
+              accolades and awards that highlight the importance of his efforts in the field of wildlife preservation.
+            </li>
+            <br><br>
+
+            <li><b>10. Call for Urgent Action:</b>
+              The precarious status of the GIB calls for immediate and sustained conservation action. Collaborative
+              efforts, along with increased public awareness, are essential to secure the future of this magnificent
+              bird species.
+              <br>
+              The time for action is now. The fate of the GIB rests in our hands, and it's a responsibility we all
+              share. Through collective efforts and a renewed commitment to conservation, we can ensure that this iconic
+              bird continues to grace our grasslands for generations to come.
+            </li>
+          </ul>
+          <br><br><br>
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/GIB/GIB-6.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/GIB/GIB-7.jpeg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/GIB/GIB-8.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/GIB/GIB-9.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/GIB/GIB-10.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/GIB/GIB-11.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/GIB/GIB-12.jpeg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/GIB/GIB-13.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/GIB/GIB-14.jpg" alt="Gallery image">
+              </figure>
+            </li>
+          </ul>
+          <a href="./about.html">
+
+            <button class="btn btn-morePhoto">View gallery</button>
+          </a>
+
+          <br><br><br>
+
+          <h2 style="text-align: center;">Brief about GIB</h2>
+
+          <table>
+            <tr>
+              <th>Common Name</th>
+              <td>Great Indian Bustard</td>
+              <!-- <th>Conservation Status</th> -->
+            </tr>
+            <tr>
+              <th>Local Name</th>
+              <td>Godawan</td>
+              <!-- <th>Conservation Status</th> -->
+            </tr>
+            <tr>
+              <th>Scientific Name</th>
+              <td>Ardeotis nigriceps</td>
+              <!-- <td>Critically Endangered</td> -->
+            </tr>
+            <tr>
+              <th>Family</th>
+              <td>Otididae</td>
+              <!-- <td></td> -->
+            </tr>
+            <tr>
+              <th>Other Names</th>
+              <td>Godawan, GIB</td>
+              <!-- <td></td> -->
+            </tr>
+            <tr>
+              <th>Size</th>
+              <td>Adults: 90 to 120 cm (height), Wingspan: 210 to 250 cm</td>
+              <!-- <td></td> -->
+            </tr>
+            <tr>
+              <th>Habitat</th>
+              <td>Grasslands, savannas, dry plains</td>
+              <!-- <td></td> -->
+            </tr>
+            <tr>
+              <th>Distribution</th>
+              <td>Once widespread in India, now restricted to small populations in Rajasthan, Gujarat, Maharashtra,
+                Andhra Pradesh, and Karnataka</td>
+              <!-- <td></td> -->
+            </tr>
+            <tr>
+              <th>Main Threats</th>
+              <td>Habitat loss, poaching, power line collisions, and disturbance</td>
+              <!-- <td></td> -->
+            </tr>
+            <tr>
+              <th>Primary Diet</th>
+              <td>Seeds, insects, small rodents, and reptiles</td>
+              <!-- <td></td> -->
+            </tr>
+            <tr>
+              <th>Reproduction</th>
+              <td>Monogamous pairs, solitary nesting in tall grass</td>
+              <!-- <td></td> -->
+            </tr>
+            <tr>
+              <th>Lifespan</th>
+              <td>Up to 15 years</td>
+              <!-- <td></td> -->
+            </tr>
+            <tr>
+              <th>Importance</th>
+              <td>Indicator species for grassland ecosystems, crucial for maintaining ecological balance</td>
+              <!-- <td></td> -->
+            </tr>
+            <tr>
+              <th>Conservation Efforts</th>
+              <td>Habitat protection, community engagement, anti-poaching measures, captive breeding programs, and
+                research initiatives</td>
+              <!-- <td></td> -->
+            </tr>
+            <tr>
+              <th>Population Trends</th>
+              <td>Drastic decline from over 1,500 individuals in the 1960s to a few hundred today</td>
+              <!-- <td></td> -->
+            </tr>
+            <tr>
+              <th>Legal Protection</th>
+              <td>Protected under India's Wildlife Protection Act, 1972</td>
+              <!-- <td></td> -->
+            </tr>
+            <tr>
+              <th>Flagship Species</th>
+              <td>Symbolizes the conservation of India's unique biodiversity and grassland ecosystems</td>
+              <!-- <td></td> -->
+            </tr>
+
+          </table>
+          <br>
+          <a href="https://en.wikipedia.org/wiki/Great_Indian_bustard" target="_blank">
+
+            <button class="btn btn-morePhoto">View more about GIB</button>
+          </a>
+
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Call To Action</p>
+
+            <h2 class="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
+
+            <p class="section-text">
+              "Prepared to Immerse in Unforgettable Thar Desert Exploration ? <br> Let Your Journey Echo Our Warmth and
+              Expertise Forever."
+            </p>
+          </div>
+
+          <a href="tel:+91 8094518231">
+            <button class="btn btn-secondary">Call Me !</button>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#home" class="logo">
+            <img src="./assets/images/m-logo.png" alt="RadheShyam logo">
+          </a>
+
+          <p class="footer-text">
+            Radhe's dedication as Great Indian Bustard conservator in the Thar Desert is truly remarkable .
+          </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Contact Us</h4>
+
+          <p class="contact-text">
+            Feel free to contact and reach us !!
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="tel:+918094518231" class="social-link">
+                <ion-icon name="call-outline"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/918094518231?text=hello%20radheshyam%20I%27m%20interested%20to%20visit%20national%20desert%20park%20and%20many%20more%20other%20tourist%20places%20"
+                class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/radheshyam_bishnoi_/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/radheshyam.pemani" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/RadheBishnoi__" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+          <br>
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+918094518231" class="contact-link">+91 8094518231</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:radhepemani@gmail.com" class="contact-link">radhepemani@gmail.com</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>Desert National Park Jaislmear, Rajasthan (India)</address>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="footer-links" style="margin: 0.4%;">
+          <h4 class="contact-title">Links</h4>
+          <a href="./index.html">
+            <p>Home</p>
+          </a>
+          <a href="./index.html">
+            <p>About me</p>
+          </a>
+          <a href="./Destination.html">
+            <p>Destination</p>
+          </a>
+          <a href="./DNP.html">
+            <p> - Desert National Park </p>
+          </a>
+          <a href="./gallery.html">
+            <p> Gallery</p>
+          </a>
+          <a href="./Mamels.html">
+            <p> - Mammals </p>
+          </a>
+          <a href="./Reptiles.html">
+            <p>- Reptile</p>
+          </a>
+          <a href="./Birds.html">
+            <p>- Birds</p>
+          </a>
+
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 All rights reserved. | Designed by - <a href="">MAHENDRA SINGH POONIYA </a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- other done by mahi  -->
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+</body>
+
+</html>
