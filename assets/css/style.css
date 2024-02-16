@@ -500,10 +500,30 @@ body {
 }
 
 /* Responsive CSS for mobile */
+
+
 @media (max-width: 768px) {
 
   .logoTop{
+    font-weight: 300;
+    font-family: 'Sacramento', cursive;
     font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0px #2d303a, -2px -2px 0px #2d303a, -2px 2px 0px #2d303a, 2px -2px 0px #2d303a;
+    color: #fff;
+    width: 100%;
+  }
+  .logoTopMenu{
+      
+    font-weight: 300;
+    font-family: 'Sacramento', cursive;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow:  -2px 2px 0px #dee3f3, 2px -2px 0px #dee3f3;
+    color: #000000;
+    width: 100%;
   }
   .navbar-list {
     flex-direction: column;
@@ -1307,6 +1327,17 @@ address {
     letter-spacing: 2px;
     text-shadow: 2px 2px 0px #2d303a, -2px -2px 0px #2d303a, -2px 2px 0px #2d303a, 2px -2px 0px #2d303a;
     color: #fff;
+    width: 100%;
+  }
+  .logoTopMenu{
+      
+    font-weight: 300;
+    font-family: 'Sacramento', cursive;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0px #304899, -2px -2px 0px #304899, -2px 2px 0px #304899, 2px -2px 0px #304899;
+    color: #000000;
     width: 100%;
   }
 
