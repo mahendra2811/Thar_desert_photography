@@ -619,6 +619,42 @@ body {
 
 
 /*-----------------------------------*\
+ * #socail media handle start
+\*-----------------------------------*/
+/* Your general styles for the container and social profiles */
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.social-profile {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%; /* Adjust the width as needed */
+  margin: 10px;
+  /* Additional styling for each social profile */
+}
+
+/* Media Query for Laptops/Desktops */
+@media only screen and (min-width: 768px) {
+  .social-profile {
+    width: 30%; /* 30% width for each profile to fit 3 in a row */
+  }
+}
+
+/* Media Query for Tablets and Mobile Devices */
+@media only screen and (max-width: 767px) {
+  .social-profile {
+    width: 100%; /* Full width for each profile on smaller screens, line-wise */
+  }
+}
+
+
+/*-----------------------------------*\
+ * #socail media handle end
+\*-----------------------------------*/
+
+/*-----------------------------------*\
  * #HERO
 \*-----------------------------------*/
 
@@ -783,7 +819,7 @@ body {
   right: 20px;
   background: var(--white);
   border-radius: var(--radius-25);
-  padding: 20px;
+  padding: 10px;
 }
 
 
@@ -858,7 +894,7 @@ body {
 }
 
 .package-card .card-content {
-  padding: 30px 20px;
+  padding: 9px 10px;
 }
 
 .package-card .card-title {
