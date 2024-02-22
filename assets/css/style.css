@@ -1234,40 +1234,25 @@ address {
 
 
 
-
-
-/*-----------------------------------*\
- * #GO TO TOP
-\*-----------------------------------*/
-
-.go-top {
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
-  width: 35px;
-  height: 35px;
-  background: var(--bright-navy-blue);
-  color: var(--white);
-  display: grid;
-  place-items: center;
-  font-size: 18px;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.5);
-  opacity: 0;
-  transform: translateY(10px);
-  visibility: hidden;
-  transition: var(--transition);
+/* for facbook insat start */
+.social-profile {
+  width: 80%;
+  margin: 10px;
+  text-align: center;
 }
 
-.go-top.active {
-  opacity: 0.8;
-  transform: translateY(0);
-  visibility: visible;
+@media only screen and (min-width: 768px) {
+  .social-profile {
+    width: 40%;
+  }
 }
 
-.go-top:is(:hover, :focus) {
-  opacity: 1;
+@media only screen and (max-width: 767px) {
+  .social-profile {
+    width: 100%;
+  }
 }
+/* for facbook insat end  */
 
 
 
@@ -1866,3 +1851,65 @@ address {
   }
 
 }
+
+
+
+/* for team member start */
+
+.team-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.team-member {
+  width: 30%;
+  margin: 15px;
+  padding: 15px;
+  /* background-color: #3e537a; */
+  background-color:  #808080;
+  /* border-top-left-radius: 5%; */
+  /* border-top-right-radius: 15%; */
+  /* text-align: center; */
+}
+
+.team-member img {
+  width: 100%;
+  height: fit-content;
+  border-radius: 30%;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 10px;
+}
+.team-member p {
+  color: white;
+
+}
+.team-member h2 {
+  color: white;
+}
+.team-member h4{
+  color: #304899;
+  size: 1px;
+}
+.social-links a {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.social-links img {
+  width: 30px;
+  margin: 0 5px;
+}
+@media (max-width: 768px) {
+  .team-member {
+    width: 90%;
+    margin: 15px;
+    padding: 15px;
+    /* background-color: #433e3e; */
+    /* text-align: center; */
+  }
+}
+
+/* for team member end  */
