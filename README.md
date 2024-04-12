@@ -54,7 +54,19 @@ If you share our passion for the desert and wildlife, contribute to our collecti
 2. Add your photographs, videos, or articles.
 3. Create a pull request.
 
+ for further modifications, improvements, or any questions, feel free to reach out to me via -
+
+- **Email:** [mahendrapuniya92@gmail.com](mailto:mahendrapuniya92@gmail.com)
+- **Portfolio:** [www.MahendraPuniya.com](https://mahendra-pooniya.netlify.app/)
+- **LinkedIn:** [www.linkedin.com/in/pooniyamahendra](https://www.linkedin.com/in/pooniyamahendra/)
+- **Git-hub:** [www.github.com/mahendra2811](https://github.com/mahendra2811)
+- **Leet-code:** [www.leetcode.com/mahendra92/](https://leetcode.com/mahendra92/)
 ## Contact Us
+
+## Sponsor 💛
+
+Give a ⭐ if you like my portfolio project!
+
 
 For inquiries, collaborations, or any questions, contact us at [contact@thardesertphotography.com](mailto:contact@thardesertphotography.com).
 
