@@ -68,7 +68,7 @@ If you share our passion for the desert and wildlife, contribute to our collecti
 Give a ⭐ if you like my portfolio project!
 
 
-For inquiries, collaborations, or any questions, contact us at [contact@thardesertphotography.com](mailto:contact@thardesertphotography.com).
+For inquiries, collaborations, or any questions, contact us at [tdpsharvan@gmail.com](mailto:contact@thardesertphotography.com).
 
 
 Explore Thar Desert Photography, where technology meets the desert's enchanting beauty, creating an unforgettable online experience.
