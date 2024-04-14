@@ -29,6 +29,8 @@
 
   <!-- table style start  -->
   <style>
+
+    
     .info-table {
       width: 100%;
       border-collapse: collapse;
@@ -60,6 +62,83 @@
     .info-table td a {
       text-decoration: none;
     }
+
+
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .container-form{
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    .contact-form {
+      padding: 50px 0;
+    }
+    
+    .section-title {
+      font-size: 24px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    
+    
+    
+    .custom-form {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+      background: linear-gradient(30deg , #ffffff , #cbbdf1);
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 16px;
+      color: #333;
+    }
+    
+    .form-input {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    textarea.form-input {
+      resize: vertical;
+    }
+    
+    .submit-button {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .submit-button:hover {
+      background-color: #0056b3;
+    }
+    
+
+
+
+
+   
+    
   </style>
   <!-- table style end   -->
     <!-- for google ad sense start -->
@@ -239,6 +318,49 @@
       </section>
 
 
+      <!-- contact form start  -->
+      <section class="contact-info">
+        <div class="container-form">
+          <div class="form_box">
+          <br><br><br>
+          <!-- <h2 class="section-title">Say hello!</h2> -->
+              <div class="form-wrapper2">
+                <form action="https://api.web3forms.com/submit" method="POST" class="custom-form">
+                  <p style="text-align: center;">Want to join our team ?</p>
+                  <h2 class="section-title">Fill this form </h2>
+                  <input type="hidden" name="access_key" value="822eca74-fa99-48ed-8be2-fd08a05eb9b7">
+                  <input type="hidden" name="subject" value="TDP contact form ">
+                  <input type="hidden" name="from_name" value="TDP (shravan patel)">
+                  <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                  <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                  <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" name="name" class="form-input" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" id="phone" name="Phone Number" class="form-input" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" id="email" name="email" class="form-input" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" rows="4" class="form-input" required></textarea>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="submit-button">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+        </div>
+      </section>
+      <!-- contact form end -->
+
+
+
       <!-- table data start  -->
       <section class="contact-info">
         <div class="container">
@@ -349,7 +471,7 @@
             <br>
 
             <!-- facebook -->
-            <div class="facebook-profile">
+            <!-- <div class="facebook-profile">
               <h3>Facebook</h3>
               <p>Like our Facebook page for the latest updates and community discussions.</p>
               
@@ -359,7 +481,7 @@
                 <blockquote cite="https://www.facebook.com/thardesertphotographyy" class="fb-xfbml-parse-ignore"><a
                     href="https://www.facebook.com/thardesertphotographyy">Thar Desert Photography</a></blockquote>
               </div>
-            </div>
+            </div> -->
 
             <br>
 
@@ -390,14 +512,6 @@
 
           </div>
 
-
-
-
-
-          <!-- <a href="./about.html"> -->
-
-            <!-- <button class="btn btn-morePhoto">View more</button> -->
-          <!-- </a> -->
 
         </div>
       </section>
