@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   // Replace 'your_email@example.com' with your email address
   $to = 'mahendrapuniya92@gmail.com';
-  $subject = 'New Contact Form Submission';
+  $subject = 'New Contact Form Submission in thardesertphotography.com ';
 
   $headers = "From: $name <$email>" . "\r\n";
 
