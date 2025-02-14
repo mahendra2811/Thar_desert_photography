@@ -53,4 +53,10 @@ window.addEventListener("scroll", function () {
 });
 
 
+// gpt optimize start
+
+// gpt optimize end
+
+
+
 
